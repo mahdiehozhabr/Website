@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@1,8..60,600&display=swap');
+
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00754a;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border {
+    align-self: center;
+    width: 1000px;
+    height: 550px;
+    background-color: #f7f7f7;
+    margin-top: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.image {
+    position: absolute;
+    width: 280px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.divider p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00754a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button a:hover {
+    background-color: #005437;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+
+}
+p{
+    font-family: 'Source Serif 4', serif;
+    font-weight: bold;
+}
+.one>button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Serif 4', serif;;
+   padding: 10px ;
+   border: none;
+  
+}

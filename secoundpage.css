@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Zilla+Slab:ital,wght@1,300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ div.navbar {
+        display: flex;
+        background-color: #183b34;
+      position: fixd;
+      top: 0;
+
+      }
+
+.navbar {
+  box-shadow: 0 1px 5px #183b34;
+}
+
+img {
+  height: 100px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover a {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px white;
+}
+
+article {
+  height: 400px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.one {
+  background-color: #006241;
+}
+
+div.autumn-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 100px;
+  align-items: center;
+  font-family: 'Hind', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.autumn-text > a button {
+  border: 5px solid white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: #006241;
+  text-decoration: none;
+  color: white;
+}
+
+.autumn > img {
+  height: 400px;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 10px 0;
+}
+div>.autumn .autumn-text{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.two {
+  background-color: rgb(229, 181, 6);
+  color: white;
+}
+
+.new > img {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  padding: 10px 0;
+}
+
+.new-text > a button {
+  border: 5px solid white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: rgb(229, 181, 6);
+  text-decoration: none;
+  color: white;
+}
+
+div.new-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 100px;
+  align-items: center;
+  font-family: 'Hind', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.three {
+  background-color: crimson;
+}
+
+div.bp-news {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 100px;
+  align-items: center;
+  font-family: 'Hind', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.bp > img {
+  height: 400px;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 10px 0;
+}
+
+.bp-news > a button {
+  border: 5px solid white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: crimson;
+  text-decoration: none;
+  color: white;
+}
+
+.four {
+  background-color: #4D002F;
+  position: relative;
+}
+
+.home > img {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  padding: 10px 0;
+}
+
+.home-text > a button {
+  border: 5px solid white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: #4D002F;
+  text-decoration: none;
+  color: white;
+}
+
+div.home-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 100px;
+  align-items: center;
+  font-family: 'Hind', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #183b34;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 1px 0 5px #183b34;
+}
+
+@media screen and (max-width:994px){
+ div>.autumn,a button .autumn-text{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .new,.new-text,.home,.home-text{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+ }
